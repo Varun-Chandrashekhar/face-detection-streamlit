@@ -95,7 +95,7 @@ def main():
     #activities = ["Home", "About"]
     #choice = st.sidebar.selectbox("Pick something fun", activities)
 
-    if TRUE: #choice == "Home":
+    if 1==1: #choice == "Home":
 
     	st.write("Go to the About section from the sidebar to learn more about it.")
         
@@ -114,7 +114,7 @@ def main():
     			st.image(result_img, use_column_width = True)
     			st.success("Found {} faces\n".format(len(result_faces)))
 
-    elif FALSE: #choice == "About":
+    elif 0==1: #choice == "About":
     	about()
 
 
