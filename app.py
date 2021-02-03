@@ -89,13 +89,13 @@ https://sites.google.com/site/5kk73gpu2012/assignment/viola-jones-face-detection
 
 
 def main():
-    st.title("Face Detection App :sunglasses: ")
+    st.title("Face Detection App")
     st.write("**Using the Haar cascade Classifiers**")
 
-    activities = ["Home", "About"]
-    choice = st.sidebar.selectbox("Pick something fun", activities)
+    #activities = ["Home", "About"]
+    #choice = st.sidebar.selectbox("Pick something fun", activities)
 
-    if choice == "Home":
+    if TRUE #choice == "Home":
 
     	st.write("Go to the About section from the sidebar to learn more about it.")
         
@@ -114,7 +114,7 @@ def main():
     			st.image(result_img, use_column_width = True)
     			st.success("Found {} faces\n".format(len(result_faces)))
 
-    elif choice == "About":
+    elif FALSE #choice == "About":
     	about()
 
 
